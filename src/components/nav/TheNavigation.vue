@@ -6,9 +6,11 @@
         <ul>
           <li>
             <!-- TODO Add a router-link to /todos -->
+            <router-link tag="a" to="/todos">Todo</router-link>
           </li>
           <li>
             <!-- TODO Add a router-link to /add-task -->
+            <router-link tag="a" to="/add-todo">Add Todo</router-link>
           </li>
         </ul>
       </div>

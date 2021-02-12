@@ -2,9 +2,11 @@
   <the-navigation></the-navigation>
   <main>
     <!-- TODO add a default router-view -->
+    <router-view></router-view>
   </main>
   <footer>
     <!-- TODO add a named footer router-view -->
+    <router-view name="footer"></router-view>
   </footer>
 </template>
 
@@ -13,7 +15,7 @@ import TheNavigation from "./components/nav/TheNavigation.vue";
 
 export default {
   components: {
-    TheNavigation,
+    TheNavigation
   },
   data() {
     return {
